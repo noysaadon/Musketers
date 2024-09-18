@@ -4,30 +4,30 @@ This project is a Django-based application for managing volunteers and charities
 
 Setup Instructions
 Prerequisites
-Python 3.x
-Django 5.x
+Python 3.11
+Django 5.1.1
 Virtual Environment (recommended)
 Installation
 Clone the Repository
 
-bash
+""bash
 Copy code
 git clone <repository_url>
 cd <repository_directory>
 Create and Activate a Virtual Environment
 
-bash
+""bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 Install Dependencies
 
-bash
+""bash
 Copy code
 pip install -r requirements.txt
 Apply Migrations
 
-bash
+""bash
 Copy code
 python manage.py migrate
 Running the Data Script
@@ -35,7 +35,7 @@ Before starting the server, you need to run the script_dummies.py to populate th
 
 Run the Data Script
 
-bash
+""bash
 Copy code
 python script_dummies.py
 This script will create sample users, companies, volunteers, and charities in the database.
@@ -45,7 +45,7 @@ After running the data script, you can start the Django development server:
 
 Start the Server
 
-bash
+""bash
 Copy code
 python manage.py runserver
 Access the Application
