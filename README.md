@@ -2,6 +2,10 @@
 Introduction
 This project is a Django-based application for managing volunteers and charities. It includes functionality for filtering and displaying volunteers and charities based on different criteria.
 
+**Target
+The primary goal of Musketeers is to connect people who wish to give their time or resources to volunteer associations.
+Whether you want to support a cause or contribute to a charity, this platform helps you find the right opportunities to make a meaningful impact.
+
 Setup Instructions
 Prerequisites
 Python 3.11
