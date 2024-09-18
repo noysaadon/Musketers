@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% extends 'login/base.html' %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectionHelp</title>
+</head>
+<body>
+  {% block body %}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">ConnectionHelp</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/volnteers">Volnteer </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/charities">Charity </a>
+          </li>
+        </ul>
+        <span class="nav-item">
+          <a class="nav-link" href="/">Logout </a>
+        </span>
+      </div>
+      </nav>
+      <br>
+    
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="card bg-dark text-black">
+                <img class="card-img" src="http://www.waterville-me.gov/wp-content/uploads/2017/06/volunteer-hands.jpg" alt="Card image" width="130" height="470">
+                <div class="card-img-overlay">
+                <h3 class="card-title">Volnteer</h3>
+                <h5><p class="card-text">Do you like to volnteer? <br></h5>
+                    <h6>come help to people <br>
+                    on your free time</p></h6>
+                    <form>
+                      <button type="submit" class="btn btn-outline-success"> <a href="/volnteers">Click here</a> </button>
+                    </form>
+                  </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card bg-dark text-black">
+                <img class="card-img" src="https://media.istockphoto.com/photos/its-the-season-to-give-donation-jar-with-money-picture-id1077890030?k=20&m=1077890030&s=612x612&w=0&h=woKCOgxGZWyNnu5KR9nF14N11Rct8JWR0oavT2KEdgI=" alt="Card image" width="130" height="470">
+                <div class="card-img-overlay">
+                <h3 class="card-title">Charity</h3>
+                <h5><p class="card-text">Do you like to Charity?<br></h5>
+                <h6>little momey for you its a world <br>
+                to someone else...</p></h6>
+                <form>
+                  <button type="submit" class="btn btn-outline-success"> <a href="/charities">Click here</a> </button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  {% endblock %}
+</body>
+</html>
